@@ -55,4 +55,49 @@ p{
     color: crimson;
 }
 
+.dotted{
+    border: dotted;
+}
+.dashed{
+    /*border: dashed;*/
+    border: 5px dashed rebeccapurple;
+}
+ .solid{
+    
+    border-style: double;
+    border-width: thin;
+    background-color: bisque;
+    border-bottom-width: 4px; 
+    outline-style: dashed;
+    outline-color:pink ;
+    outline-width: 6px;
+    border-radius: 6px;
+    outline-offset: 12px;
+    
+ }
+ .groove{
+   /* border-style: groove;*/
+   /* border-top-style: solid;
+    border-bottom-style:solid ;
+    border-right-style:dotted ;
+    border-left-style:dotted ;
+*/
+    border-width: 3px 4px 6px 8px;
+    border-style: solid dotted solid dotted;
+}
+
+ .ridge{
+    border-style: ridge;
+
+ }
+
+ .none{
+    border-style: none;
+ }
+
+ .hidden{
+    border-style: hidden;
+ }
+
+
 

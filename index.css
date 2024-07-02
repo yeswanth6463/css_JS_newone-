@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    ;
+    font-weight: bold;
+    color: chocolate;
+}
+body{
+    background-image: url(./pexels-adrien-olichon-1257089-2387793.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tlb{
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-bottom: 350px;
+    font-size: 70px
+    ;
+    color: rgb(234, 120, 20);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 153, 0), 0 0 5px rgba(101, 74, 22, 0.778);
+    
+}
+aside{
+    margin-top: 60px;
+    margin-left: 800px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
