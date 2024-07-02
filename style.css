@@ -1,0 +1,58 @@
+/* selector */
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#idselector{
+    color: red;
+}
+
+.classselctor{
+    color: yellow;
+}
+
+p.green{
+    color: blueviolet;
+}
+
+h1{
+    color: chartreuse;
+}
+
+p,h1{
+    font-size: 20px;
+}
+/*===========================*/
+.rgb{
+    color: rgb(48, 236, 14);
+}
+/*opaccity*/
+.RGBA{
+    color: rgba(234, 0,0,0.5);
+}
+
+.hex{
+    color: #ff0000;
+}
+.hsl
+{
+    color: hsl(0, 45%, 25%);
+}
+
+body{
+    background-color: rgb(197, 121, 27);
+    background-image: url("./pexels-adrien-olichon-1257089-2387793.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+   
+}
+p{
+    color: crimson;
+}
+
+
