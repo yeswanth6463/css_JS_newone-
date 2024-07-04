@@ -75,8 +75,8 @@ p{
     outline-offset: 12px;
     
  }
- .groove{
-   /* border-style: groove;*/
+.groove{
+  /* border-style: groove;*/
    /* border-top-style: solid;
     border-bottom-style:solid ;
     border-right-style:dotted ;
@@ -86,14 +86,14 @@ p{
     border-style: solid dotted solid dotted;
 }
 
- .ridge{
+.ridge{
     border-style: ridge;
 
- }
+}
 
- .none{
+.none{
     border-style: none;
- }
+}
 
  .hidden{
     border-style: hidden;
