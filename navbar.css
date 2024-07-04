@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: red;
+    margin-left: 30px;
+}
+
+li, a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 40px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.f{
+    margin-right: 40pxs;
+}
+div{
+    position: sticky;
+    position:-webkit-sticky ;
+    top: 0;
+}
+p{
+    width: 40%;
+    height: 45px;
+    font-size: 20px;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.lf{
+    float: left;
+    width: 50%;
+    background-color: brown;
+    height: 500px;
+}
+
+.rg{
+    background-color: blue;
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+.imgl{
+    float: left;
+}
+.imgr{
+    float: right;
+}

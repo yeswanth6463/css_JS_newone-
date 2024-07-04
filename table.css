@@ -1,0 +1,100 @@
+table,th,td{
+    /* border: 2px solid red; */
+
+   
+
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+} 
+/* th{
+    height: 70px;
+    font-size: 50px;
+} */
+div{
+    margin: 20px 80px;
+}
+/* td{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+} */
+ th,td{
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: 1px solid;
+    text-align: left;
+ }
+
+/* tr:hover{
+    background-color: chocolate;
+} */
+
+tr:nth-child(even){
+    background-color: rgb(241, 66, 107);
+}
+th{
+    background-color: rgb(255, 31, 6);
+    color: aliceblue;
+}
+span{
+    display: inline-block;
+}
+p{
+    display: inline;
+    padding: 30px;
+    background-color: cornflowerblue;
+    
+}
+
+ul{    background: linear-gradient(to right, #a5bbd1, #ea7676aa);
+        border-radius: 20px;}
+li{
+    display: inline-block;
+    padding: 15px;
+    margin: 2px 5px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 30px;
+    width: 4px 5px ;
+
+}
+h2{
+    position: static;
+}
+
+/* .a{
+    position: relative;
+    left: 20px;
+    top: 0;
+ 
+}
+
+.b{
+    position: fixed;
+    /* left: 20px; */
+    /* bottom: 0;
+    right: 0;
+}
+ */ 
+/* 
+.relative{
+    border: 1px solid red;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.obsolute{
+    border: 1px solid blue;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+} */
+
+*{
+    box-sizing: border-box;
+}

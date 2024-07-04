@@ -95,3 +95,58 @@ h1{
     font-size: 30px ;
     font-weight: lighter;
 }
+a{
+    color: black;
+}
+
+a:link , a:visited{
+    
+    border: 2px solid red;
+    border-radius: 300px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgb(244, 131, 127);
+    margin-left: 45%;
+}
+
+/* a:visited{
+    color: chocolate;
+} */
+
+a:hover,a:active{
+    color: rgb(245, 0, 0);
+    background: black;
+    border: 2px solid rgb(238, 236, 236);
+}
+/* a:active{
+    color: rgb(47, 203, 175);
+} */
+
+.list{
+    list-style-type: circle;
+    list-style-position: intside;
+}
+
+.list2{
+    list-style-type: square;
+    list-style-position: inside;
+    
+    list-style-image: url();
+}
+.l{
+    list-style-type: lower-latin;
+}
+
+.ul{
+    background-color: rgb(182, 119, 74);
+    padding:20Px;
+
+}
+
+ul li {
+    background-color: rgb(237, 148, 148);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 300px;
+    width: 100px;
+}
