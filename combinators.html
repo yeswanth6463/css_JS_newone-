@@ -5,10 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>combinators</title>
     <style>
-        div ~ p{
+        div >p{
             color: red;
             background-color:mediumspringgreen ;
         }
+        a.highlight:hover{
+            color: red;
+            font-size: 40px;
+        }
+        p{
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+        }
+        div:hover p{
+            display: block;
+        }
+
+    </style>
+    <style>
+        p b:last-child{
+            color: mediumslateblue;
+        }
+        li:nth-child(even){
+            color:red;
+
+        }
+
+    </style>
+    <style>
+         p{
+            color: red;
+         }
+         :not(p){
+            color: purple;
+         }
     </style>
 </head>
 <body>
@@ -27,5 +58,32 @@
     <span><p>tds 7</p></span>
     <p>tds 8</p></div>
     <p>TDS 9</p>
+    <p><a href="" class="highlight">link</a></p>
+    <div>tamil developers studio <p>TDS</p></div> -->
+
+<!-- 
+    <p><b>tamil</b>tamil developers studio <b>yeswanth</b></p>
+    <p><b>tamil</b>tamil developers studio <b>yeswanth</b></p>
+    <div>
+        <p>tamil devloper studio <b>yeswanth</b></p>
+        <p>tamil devloper studio</p>
+    </div>
+    <ul>
+        <li>tds</li>
+        <li>tds</li>
+        <li>tds</li>
+        <li>tds</li>
+        <li>tds</li>
+        <li>tds</li>
+    </ul>
+
+    <div>
+        <p>tds</p>
+        <p>tds</p>
+        <p>tds</p>
+        <span>tamil developerssti=udio</span>
+        <span>tamil developerssti=udio</span>
+        <span>tamil developerssti=udio</span>
+    </div>
 </body>
 </html>
