@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            gap: 10px;
+            font-weight: 17px;
+            font-family: sans-serif;
+            color: #fff;
+        }
+
+        .container > div
+{
+    flex: 100%;
+}
+
+.subcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background: black;
+    border-radius: 3px;
+}
+
+
+.sidebar{
+    flex: 1;
+    background: green;
+}
+
+.main_container{
+    flex:4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main_container>div{
+    flex: 100%;
+}
+
+h4{
+    padding: 10px;
+}
+
+.main{
+    min-height: 250px;
+    background:red;
+    
+
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content1,.content2,.content3{
+    min-height: 200px;
+    background: rgb(100, 104, 104);
+    flex: 1;
+}
+
+.footer{
+    flex: 100%;
+    min-height: 50px;
+    background: rgb(219,13, 147);
+}
+
+.sidebar, .main, .content>div{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width:768px) {
+    .subcontainer{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        min-height: 50px;
+        }
+    
+}
+
+@media only screen and (max-width:not){
+    .content>div{
+        flex: 100%;
+    }
+    .content1, .content2, .content3{
+        min-height: 170px ;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h4>nAVBAR</h4>
+        </div>
+        <div class="subcontainer">
+            <div class="sidebar"><h4>sidebar</h4></div>
+            <div class="main_container">
+                <div class="main">
+                    <h4>main</h4>
+                </div>
+                <div class="content">
+                    <div class="content1"><h4>content1</h4></div>
+                    <div class="content2"><h4>content2</h4></div>
+                    <div class="content3"><h4>content3</h4></div>
+                    <div class="footer">footer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
