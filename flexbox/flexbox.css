@@ -46,12 +46,14 @@ body{
 .container div {
     width: 200px;
     color:white;
-    margin: 50px;
+    margin: 10px;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
     width: 300px;
     flex-wrap: wrap;
     border-radius: 10px;
+    flex-basis: 20%;
+    
 }
 
