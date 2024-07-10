@@ -64,5 +64,17 @@ body{
 }
 
 .container{
-    
+    justify-content: center;
+    margin-top: 10%;
+    color: white;
+    font-size: 30px;
+    margin-right: 50%;
+    width: 35%;
+    background-color:transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
+
