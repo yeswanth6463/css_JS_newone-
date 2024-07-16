@@ -34,3 +34,24 @@ function area(){
 }
 
 area()
+
+//return type
+
+function myname()
+{
+    return "hello"
+}
+
+
+var myn = myname()
+console.log(myn)
+
+function addition(a,b)
+
+{
+    return a+b
+}
+
+
+var addition = addition(10,5)
+console.log(addition)
