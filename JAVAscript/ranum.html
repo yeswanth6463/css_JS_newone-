@@ -62,6 +62,11 @@
         transform: scaleX(1);
         transform-origin: bottom left;
       }
+      p{
+        color: rgb(248, 248, 248);
+        font-size: 40px;
+        
+      }
         
             
     </style>
@@ -69,7 +74,36 @@
 <body>
     <div class="gus">
     <h1>guess the number</h1>
-    <input type="number">
-    <button>check</button></div>
-</body>
+    <input type="number" id="guessnum">
+    <button onclick="check()">check</button>
+    <p id="result">you are right/wrong</p>
+
+
+</div></body>
+<script>
+    //select iinput
+
+    var guessnum = document.getElementById("guessnum")
+    var result = document.getElementById("result")
+    var randomnum = Math.floor(Math.random()*10)+1
+    console.log(randomnum)
+
+    function check(){
+        var enterednum =guessnum.value
+        if(randomnum==enterednum)
+        {
+            console.log("Right")
+            result.textContent="right"
+            alert("You won you guess the random number")
+        }
+        else{
+            result.textContent="wrong"
+        }
+    }
+
+
+</script>
+
+
+
 </html>
