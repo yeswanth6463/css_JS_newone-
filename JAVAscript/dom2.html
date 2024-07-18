@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            top: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        body{
+            margin-left:43%;
+            margin-top: 20%;
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            background-color: rgb(29, 31, 28);
+            border: 2px solid red;
+            padding: 30px;
+            border-radius: 30px;
+
+            
+        }
+        label{
+            font-size: 20px;
+            color: white;
+
+        }
+        input{
+            border-radius: 30px;
+            height: 50px;
+            font-size: 30px;
+            width: 200px;
+        }
+        button{
+            border-radius: 30px;
+            color: red;
+            font-size: 23px;
+            width: 100px;
+            
+        }
+
+        button:hover{
+            color: black;
+            background-color: red;
+        }
+
+        #result{
+            color: azure;
+            font-size: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <label for="">num1</label>
+    <input  id="num1" >
+    <label for="">num2</label>
+    <input  id="num2" >
+    <button onclick="resultfun()">add</button>
+    <p id="result">result</p>
+</body>
+
+<script>
+    //selecting input box 1
+    // selecting box 2
+    var box1 = document.getElementById("num1")
+    var box2 =document.getElementById("num2")
+    //selecting result
+    var result = document.getElementById("result")
+
+    function resultfun()
+    {
+        
+    var box1val = Number(box1.value)
+    var box2val =Number (box2.value)
+
+
+    var total = box1val+box2val
+    result.textContent=total
+    }
+</script>
+</html>
